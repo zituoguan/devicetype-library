@@ -5,8 +5,7 @@ slug: apple-appletv53
 part_number: A1625
 is_full_depth: false
 u_height: 0
-comments: "- Order Number: MGY52LL/A\r\n- Model Number: A1625\r\n- EMC: 2907\r\n- Edition: 4th Gen\r\n- Processor Speed: 1.4GHz\r\n- Processor Type: Apple\
-  \ A8\r\n- Processors (Cores): 1\r\n- Hard Drive: 32GB\r\n- RAM: 2GB\r\n- Input: Siri Remote\r\n- Release Date: September 9th 2015"
+comments: "- 订单号码: MGY52LL/A\r\n- 型号: A1625\r\n- EMC: 2907\r\n- 版本: 第四代\r\n- 处理器速度: 1.4GHz\r\n- 处理器类型: Apple A8\r\n- 处理器（核心数）: 1\r\n- 硬盘: 32GB\r\n- RAM: 2GB\r\n- 输入: Siri 遥控器\r\n- 发布日期: 2015年9月9日"
 power-ports:
   - name: Power
     type: nema-1-15p

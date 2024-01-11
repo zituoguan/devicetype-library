@@ -6,7 +6,7 @@ slug: avocent-mpuiq-vmchs
 u_height: 0
 is_full_depth: false
 airflow: passive
-comments: MPU IQ Serial Adapter
+comments: MPU IQ 串行适配器
 console-ports:
   - name: KVM
     type: rj-45

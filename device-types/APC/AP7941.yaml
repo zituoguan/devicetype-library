@@ -8,7 +8,7 @@ is_full_depth: false
 comments: |
   Rack PDU 2G, Switched, ZeroU, 30A, 200/208V, (21) C13 & (3) C19
 
-  [APC AP7941 Technical Data](https://www.apc.com/shop/us/en/products/Rack-PDU-Switched-Zero-U-30A-200-208V-21-C13-3-C19/P-AP7941)
+  [APC AP7941 技术数据](https://www.apc.com/shop/us/en/products/Rack-PDU-Switched-Zero-U-30A-200-208V-21-C13-3-C19/P-AP7941)
 console-ports:
   - name: Serial
     type: rj-12

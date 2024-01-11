@@ -6,8 +6,7 @@ part_number: 800.5184.xx
 u_height: 1.0
 is_full_depth: true
 airflow: side-to-rear
-comments: Manageable L2/L3/MPLS wirespeed Ethernet Switch, 24x 100/1000Base-X ports (SFP), 4x 1/10 Gigabit Ethernet optical ports (SFP/SFP+), 2x 40Gigabit
-  Ethernet optical ports (QSFP+). Up to two AC or DC power supplies (not included). MPLS support (MPLS license required). https://www.datacom.com.br/uploads/product/file/8c81e7c7bf130d46bfaf5a190e793c7f.pdf
+comments: 可管理的 L2/L3/MPLS 线速以太网交换机，具有 24 个 100/1000Base-X 端口（SFP），4 个 1/10 千兆以太网光口（SFP/SFP+），2 个 40 千兆以太网光口（QSFP+）。最多支持两个 AC 或 DC 电源（不包括在内）。支持 MPLS（需要 MPLS 许可证）。[链接](https://www.datacom.com.br/uploads/product/file/8c81e7c7bf130d46bfaf5a190e793c7f.pdf)
 weight: 3.28
 weight_unit: kg
 console-ports:

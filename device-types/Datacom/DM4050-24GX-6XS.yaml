@@ -6,8 +6,7 @@ part_number: 800.5190.xx
 u_height: 1.0
 is_full_depth: true
 airflow: side-to-rear
-comments: L2/L3 wirespeed switch with 24 optical Gigabit Ethernet ports (SFP) and 6 optical 10Gisgabit Ethernet ports (SFP+). 1U Metal cabinet for 19-inch
-  racks. Two slots for power supplies. Power supplies and SFPs to be ordered separately. https://www.datacom.com.br/uploads/product/file/97aede61eba553f23060d983b6e68152.pdf
+comments: 具有 24 个光学千兆以太网端口（SFP）和 6 个光学 10 千兆以太网端口（SFP+）的 L2/L3 线速交换机。1U 金属机柜适用于 19 英寸机架。具有两个电源插槽。电源和 SFP 模块需单独订购。[链接](https://www.datacom.com.br/uploads/product/file/97aede61eba553f23060d983b6e68152.pdf)
 weight: 3.00
 weight_unit: kg
 console-ports:

@@ -8,7 +8,7 @@ is_full_depth: true
 weight: 33
 weight_unit: lb
 airflow: front-to-rear
-comments: '[Barracuda Message Archiver DATASHEET](https://assets.barracuda.com/assets/docs/dms/Barracuda_Message_Archiver_DS_US.pdf)'
+comments: '[Barracuda 消息存档器数据表](https://assets.barracuda.com/assets/docs/dms/Barracuda_Message_Archiver_DS_US.pdf)'
 power-ports:
   - name: PSU
     type: iec-60320-c14

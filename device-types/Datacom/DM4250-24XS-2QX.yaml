@@ -6,8 +6,7 @@ part_number: 800.5197.xx
 u_height: 1.0
 is_full_depth: true
 airflow: side-to-rear
-comments: Manageable L2/L3 wirespeed Ethernet Switch, 24x 10Gigabit Ethernet optical ports (SFP+) and 2x 40 Gigabit Ethernet optical ports (QSFP+), Metal
-  1U cabinet for 19” racks. Up to two AC or DC power supplies (not included). https://www.datacom.com.br/uploads/product/file/8cd31fbe0b9a8093b177e8008097094c.pdf
+comments: 可管理的 L2/L3 线速以太网交换机，具有 24 个 10 千兆以太网光口（SFP+）和 2 个 40 千兆以太网光口（QSFP+），1U 金属机柜适用于 19 英寸机架。最多支持两个 AC 或 DC 电源（不包括在内）。[链接](https://www.datacom.com.br/uploads/product/file/8cd31fbe0b9a8093b177e8008097094c.pdf)
 weight: 3.15
 weight_unit: kg
 console-ports:

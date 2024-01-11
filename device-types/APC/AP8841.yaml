@@ -8,7 +8,7 @@ is_full_depth: false
 airflow: passive
 weight: 15.08
 weight_unit: lb
-comments: Rack PDU 2G, Metered, ZeroU, 30A, 200/208V, (36) C13 & (6) C19. '[Datasheet Link](https://www.apc.com/ca/en/product/download-pdf/AP8841)'
+comments: Rack PDU 2G, Metered, ZeroU, 30A, 200/208V, (36) C13 & (6) C19. '[数据表链接](https://www.apc.com/ca/en/product/download-pdf/AP8841)'
 console-ports:
   - name: Serial
     type: rj-12

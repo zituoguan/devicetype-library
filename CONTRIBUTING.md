@@ -1,53 +1,44 @@
-# Contributing
+# 贡献
 
-This library is maintained by and for the community of NetBox users. As such, the regular contribution of accurate and
-complete device type definitions is crucial to its success.
+此库由 NetBox 用户社区维护。因此，准确和完整的设备类型定义的定期贡献对其成功至关重要。
 
-## Writing Definition Files
+## 编写定义文件
 
-Each NetBox device type definition exists as a single YAML file, arranged by manufacturer (vendor). Files are named by
-concatenating the definition's model name with a `.yaml` extension. For example:
+每个 NetBox 设备类型定义都作为一个单独的 YAML 文件存在，按制造商（供应商）排列。文件通过将定义的型号名称与 `.yaml` 扩展名连接来命名。例如：
 
 ```no-highlight
 device-types/Acme/BFR-1000.yaml
 device-types/Acme/BFR-2000.yaml
 ```
 
-When writing new definitions, there are some important guidelines to follow:
+编写新定义时，有一些重要的准则需要遵循：
 
-- Every unique model number requires a discrete definition file, even if the set of components is identical.
-- Definition files must end in `.yaml`, or `.yml`
-- Use proper, human-friendly names when creating manufacturer directories (e.g. `Alcatel-Lucent` versus `alcatel`).
-- Include only components which are fixed to the chassis. Module bays and associated module types should be included for
-  all modular components which can be modelled in NetBox (network modules, power supplies, etc).
-- Name components exactly as they appear in the device's operating system (as opposed to the physical chassis label, if
-  different).
-- Use the complete form of interface names where applicable. For example, use `TenGigabitEthernet1/2/3` instead of
-`Te1/2/3`.
+- 每个独特的型号号码都需要一个单独的定义文件，即使组件集合是相同的。
+- 定义文件必须以 `.yaml` 或 `.yml` 结尾。
+- 创建制造商目录时使用适当的、对人类友好的名称（例如，使用 `Alcatel-Lucent` 而不是 `alcatel`）。
+- 仅包括固定在机箱上的组件。对于所有可以在 NetBox 中建模的模块化组件（网络模块、电源等），应包括模块槽和相关模块类型。
+- 按照设备操作系统中显示的方式准确命名组件（与物理机箱标签不同的情况下）。
+- 在适用的情况下使用接口名称的完整形式。例如，使用 `TenGigabitEthernet1/2/3` 而不是 `Te1/2/3`。
 
-Additionally, be sure to adhere to the following style guidance:
+此外，请确保遵守以下风格指南：
 
-- Use two spaces for indenting.
-- Specify a device type's attributes before listing its components.
-- Avoid encapsulating YAML values in quotes unless necessary to avoid a syntax error.
-- End each definition file with a blank line.
+- 使用两个空格进行缩进。
+- 在列出其组件之前指定设备类型的属性。
+- 避免在不需要避免语法错误的情况下用引号封装 YAML 值。
+- 每个定义文件以空行结束。
 
-## The Contribution Workflow
+## 贡献工作流程
 
-The process of submitting new definitions to the library is as follows:
+向库提交新定义的过程如下：
 
-1. Verify that the proposed definition does not duplicate or conflict with an existing definition. (If unsure, please
-   raise an issue seeking clarification prior to submitting a PR.)
-1. [Fork](https://guides.github.com/activities/forking/) the GitHub project and create a new branch to hold your
-   proposed changes. If adding new definitions, the branch should be named so that it loosely follows the format `<manufacturer>-<series>` (for example, `cisco-c9300`).
-1. Install & run included pre-commit script as described in the [README.md](README.md) (Optional, but recommended)
-1. Introduce the new content exactly as it should appear once accepted.
-1. Create a [draft pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests#draft-pull-requests) to merge your new branch into the `master` branch. Include a brief description of the changes introduced in the PR.
-1. GitHub will automatically run tests against your draft PR to validate it. If the tests fail, make the necessary changes to
-   your branch so that they pass.
-1. Submit the [pull request](https://github.com/netbox-community/devicetype-library/compare?expand=1) for review. Please note that submitted PRs
-   which do not pass validation will be closed and must be rescinded.
-1. A maintainer will review your PR and take one of three actions:
-   - Accept and merge it
-   - Request revisions
-   - Close the PR citing a reason (e.g. failing validation or not applicable to the library)
+1. 验证所提出的定义是否与现有定义重复或冲突。（如果不确定，请在提交 PR 之前提出问题寻求澄清。）
+2. [Fork](https://guides.github.com/activities/forking/) GitHub 项目并创建一个新分支来保存您的建议更改。如果添加新定义，分支应命名为大致遵循格式 `<manufacturer>-<series>`（例如，`cisco-c9300`）。
+3. 安装并运行 [README.md](README.md) 中描述的预提交脚本（可选，但建议）
+4. 确切地介绍新内容，就像它被接受后应该显示的那样。
+5. 创建一个 [草案拉取请求](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests#draft-pull-requests)，以将您的新分支合并到 `master` 分支。在 PR 中包含对引入的更改的简要描述。
+6. GitHub 将自动针对您的草案 PR 运行测试以验证它。如果测试失败，请对分支进行必要的更改，以便它们通过。
+7. 提交 [拉取请求](https://github.com/netbox-community/devicetype-library/compare?expand=1) 进行审查。请注意，未通过验证的提交 PR 将被关闭，必须撤回。
+8. 维护者将审查您的 PR 并采取以下三种操作之一：
+   - 接受并合并它
+   - 请求修订
+   - 引用原因（例如，验证失败或与库不适用）关闭 PR

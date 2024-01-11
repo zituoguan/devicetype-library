@@ -6,7 +6,7 @@ part_number: CPAC-1500/3600/3800-RM-DUAL
 u_height: 1
 is_full_depth: false
 is_powered: false
-comments: Rack Mount shelf for Single/Dual for 1500/ 3600/ 3800 desktop appliances
+comments: 用于支持 1500/3600/3800 台式设备的单/双机架式架子
 subdevice_role: parent
 device-bays:
   - name: Left

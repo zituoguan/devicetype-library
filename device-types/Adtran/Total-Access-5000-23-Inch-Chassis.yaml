@@ -6,7 +6,7 @@ part_number: 1187001G1
 u_height: 8.0
 is_full_depth: false
 subdevice_role: parent
-comments: Fiber Access and Aggregation Platform [Total Access 5000 23-Inch ANSI Chassis Manufacturer Discontinued Notice](https://portal.adtran.com/web/appmanager/portal/Adtran?_nfpb=true&partNumber=1187001G1&productGroupId=4192&selectTab=accessoriesAndSoftware&_pageLabel=waverunner_page_products_productdetail)
+comments: 光纤接入和聚合平台 [Total Access 5000 23英寸ANSI机箱停产通知](https://portal.adtran.com/web/appmanager/portal/Adtran?_nfpb=true&partNumber=1187001G1&productGroupId=4192&selectTab=accessoriesAndSoftware&_pageLabel=waverunner_page_products_productdetail)
 power-ports:
   - name: DC-Input-A
     type: dc-terminal

@@ -6,8 +6,7 @@ part_number: 800.5283.xx
 u_height: 1.0
 is_full_depth: false
 airflow: left-to-right
-comments: GPON OLT for desktop or 19” rack installation, containing 4 GPON interfaces, 2 electrical GE RJ45 interfaces and 2 10GE/GE SFP+ interfaces. Internal
-  full range AC/DC power supply and power redundancy option through 12V auxiliary input.
+comments: 用于桌面或 19 英寸机架安装的 GPON OLT，包含 4 个 GPON 接口，2 个电气 GE RJ45 接口和 2 个 10GE/GE SFP+ 接口。内置全范围 AC/DC 电源，并通过 12V 辅助输入提供电源冗余选项。
 weight: 2.47
 weight_unit: kg
 console-ports:

@@ -5,7 +5,7 @@ slug: cisco-asr-920-12sz-d
 part_number: ASR-920-12SZ-D
 is_full_depth: false
 u_height: 1
-comments: '[Cisco ASR 920 Series Aggregation Services Class B Timing Compliance Routers Data Sheet](https://www.cisco.com/c/en/us/products/collateral/routers/asr-920-series-aggregation-services-router/datasheet-c78-741006.html)'
+comments: '[思科 ASR 920 系列聚合服务路由器 Class B 定时合规性数据表](https://www.cisco.com/c/en/us/products/collateral/routers/asr-920-series-aggregation-services-router/datasheet-c78-741006.html)'
 power-ports:
   - name: PSU0
     type: dc-terminal

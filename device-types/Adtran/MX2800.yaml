@@ -5,7 +5,7 @@ slug: adtran-mx2800
 part_number: 1200290L1
 u_height: 1
 is_full_depth: false
-comments: '[MX2800 Multiplexer Chassis](https://portal.adtran.com/web/page/portal/Adtran/product/1200290L1/3)'
+comments: '[MX2800 复用器机箱](https://portal.adtran.com/web/page/portal/Adtran/product/1200290L1/3)'
 console-ports:
   - name: LAN
     type: rj-45
